@@ -9,7 +9,17 @@ const Grid = () => {
         <BentoGrid>
             {gridItems.map
             ((item)=>(
-                <BentoGridItem id={item.id} description={item.description} title={item.title} key={item.id}/>
+                <BentoGridItem
+                id={item.id}
+                description={item.description}
+                title={item.title}
+                key={item.id}
+                className={item.className}
+                img={item.img}
+                imgClassName={item.imgClassName}
+                titleClassName={item.titleClassName}
+                spareImg={item.spareImg}
+                />
             ))
             }
         </BentoGrid>
