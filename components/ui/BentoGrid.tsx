@@ -1,5 +1,6 @@
 import { cn } from "@/utils/cn";
-
+import { BackgroundGradientAnimation } from "./BG_grad";
+import { GlobeDemo } from "./GridGlobe";
 export const BentoGrid = ({
   className,
   children,
@@ -45,7 +46,7 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "group/bento relative shadow-input row-span-1 flex flex-col justify-between space-y-4 rounded-3xl border border-neutral-200 bg-white p-4 transition duration-200 hover:shadow-xl dark:border-white/[0.2] dark:bg-black dark:shadow-none",
+        "group/bento relative overflow-hidden shadow-input row-span-1 flex flex-col justify-between space-y-4 rounded-3xl border border-neutral-200 bg-white p-4 transition duration-200 hover:shadow-xl dark:border-white/[0.2] dark:bg-black dark:shadow-none",
         className,
       )}
       style={{
@@ -77,16 +78,26 @@ export const BentoGridItem = ({
           )}
 
         </div>
-      </div>
-      {/* {header} */}
-      <div className="transition duration-200 group-hover/bento:translate-x-2">
-        {/* {icon} */}
-        <div className="mt-2 mb-2 font-sans font-bold text-neutral-600 dark:text-neutral-200">
-          {title}
+
+        {id==6 && (
+          <BackgroundGradientAnimation>
+            <div className="absolute z-50 flex items-center justify-center text-white font-bold"></div>
+          </BackgroundGradientAnimation>
+        )}
+
+        <div className={cn(
+          titleClassName,"group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
+        )}>
+          <div className="font-sans text-sm font-extralight text-[#c1c2d3] md:text-xs lg:text-base z-10">
+            {description}
+          </div>
+            <div className="lg:text-xl max-w-96 z-10 font-sans font-bold text-lg">
+              {title}
+          </div>
         </div>
-        <div className="font-sans text-xs font-normal text-neutral-600 dark:text-neutral-300">
-          {description}
-        </div>
+
+        {id===2 && (<GlobeDemo/>)}
+
       </div>
     </div>
   );
