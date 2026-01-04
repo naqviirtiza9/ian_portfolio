@@ -72,35 +72,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Proctowise, StreamLined and smart evaluation and Proctoring service",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Proctowise, StreamLined and customized smart evaluation and Proctoring service",
+    des: "Developed a website for our Final Year Project, Automated Proctoring and grading platform for online coding competitions",
+    img: "/proctowise.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://procto-wise-frontend.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Vacation App",
+    des: "Built a Project on React Native to develop a vacation app to search and view vacation spots",
+    img: "/vacation.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "https://github.com/naqviirtiza9",
   },
   {
     id: 3,
     title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    des: "A REAL template for entry level professionals who have difficulties in building a resume",
+    img: "/resume.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "https://github.com/naqviirtiza9/resume_template",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Bank Management System",
+    des: "Bank Management system containg most of all the bank operations, developed in JSP, JAVA servlets et",
+    img: "/slide04.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://github.com/naqviirtiza9/Bank_management_system",
   },
 ];
 
@@ -167,31 +167,37 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Junior Software Developer - [July 2024 - Present]",
+    desc: `Started My career initiation in software development in the Division of Searoc Group LTD in contour. Worked on the product called Seaplanner software, which is a fully functioning software aiming to provide a streamlined process for the daily sea onshore activities like turbine functioning, water energy generation and turbine maintenance etc. My main Tasks were:
+            Bootsrap 3 to 5 Upgrading.
+            Learning ASP.net Core MVC and Web forms.
+            Fixing application bugs.
+
+            Allocated to another division named: POMS Corporation. Working on the software called POMSnet Aquila. A fully functioning Manufacturing Execution System aiming to provide a streamlined approach for manufacturing activities associated with the Biomedical Industry.
+            My main tasks are:
+            Fixing application bugs
+            Working on Frontend
+            Working on playWright software
+            working on new usecases.`,
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    companyName:"Contour Software",
+    thumbnail: "/exp1.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Software Developer Intern - [July 2023 - Aug 2023]",
+    desc: "Collaborated with developers in building a Loan Booking website with front end texh stack in Vue.js and backend in Quarkus Java, utilization of REST-APIs in communications ",
+    companyName:"Bank Al Habib Limited",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp2.png",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Student Teaching Assistant - [Jan 2025 - July 2025]",
+    desc: `Teaching Assistant for the course of Software Re-Engineering. Involves Checking Assignments, grading projects and assisting the teacher in overall semester course activities`,
+    companyName:"FAST-NU",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp3.png",
   },
 ];
 
