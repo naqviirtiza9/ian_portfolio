@@ -5,7 +5,8 @@ import { FaHome } from "react-icons/fa";
 import Grid from "@/components/Grid";
 import MyProjects from "@/components/MyProjects";
 import { navItems } from "@/GridItems";
-
+import Reccommendations from "@/components/Recommendations";
+import Experience from "@/components/Experience";
 export default function Home() {
   return (
     <main className="w-full">
@@ -18,6 +19,8 @@ export default function Home() {
           <Hero/>
           <Grid/>
           <MyProjects/>
+          <Reccommendations/>
+          <Experience/>
         </h1>
       </div>
       </main>
