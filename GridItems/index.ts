@@ -88,7 +88,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    title: "Resume Template",
     des: "A REAL template for entry level professionals who have difficulties in building a resume",
     img: "/resume.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
