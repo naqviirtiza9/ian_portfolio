@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Testimonials", link: "#recommendations" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -107,34 +107,28 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I had the pleasure of working with Irtiza, and I can confidently say that he is a dedicated and talented professional. His strong work ethic, problem-solving skills, and ability to collaborate effectively make him an asset to any team. Irtiza consistently delivers high-quality work, always going the extra mile to ensure success. His positive attitude and willingness to help others make him a great colleague to work with. I highly recommend him to anyone looking for a skilled and reliable professional.",
+    name: "Majaz Turabee",
+    title: "Software Engineer | Full Stack Developer | .NET | .NET Core | C# | API | SQL",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Irtiza worked his internship at SeaRoc in 2024 providing software engineering skills in ASP.net and bootstrap upgrading. Irtiza was polite, hardworking and diligent in his work, he was a great asset to SeaRoc during his tenure. Irtiza is highly recommended and has a great future ahead.",
+    name: "Dominic Stratton",
+    title: "Development Manager, Ascertra Searoc",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote:"I highly recommend Irtiza Naqvi, who was an excellent intern during his time with us at SeaRoc Group. He demonstrated strong communication skills, consistently completed tasks on time, and showed great reliability in meeting deadlines. His proactive approach and positive attitude made him a valuable team member, and I am confident he will continue to excel in any future opportunities.",
+       name: "Ismail Asghar",
+    title: "Senior Software Developer |Team Lead | React JS | .Net core | Fusion Charts | Crystal Reports | x-Dunya news|",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote:`Irtiza and I were batchmates during our Bachelor's in SE @ FAST NUCES. I completed the majority of the semester projects with Irtiza, including our FYP. We worked on C, C#, Java Servlets, React, Next, Node JS, Nest JS, and MongoDB tech stacks during our semester projects. 
+All I can say is that he has always been a person who has got your back. He gave brilliant ideas and solutions when we were stuck on a project task. That is why I always wanted to work with him on any group assignment or project. He never backed away from working on new technology. He is upright, honest, and responsible, considering his work life. He is ambitious and willing to grow in skillsets.`,
+      name: "Hanzala Bhutto",
+    title: "Software Engineer @ Infineon | MSc Distributed Systems @ TU Dresden | Software Engineering | Generative AI",
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+  
 ];
 
 export const companies = [
