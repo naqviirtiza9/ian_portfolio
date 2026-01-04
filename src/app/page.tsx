@@ -21,8 +21,8 @@ export default function Home() {
           <Hero/>
           <Grid/>
           <MyProjects/>
-          <Reccommendations/>
           <Experience/>
+          <Reccommendations/>
           <Approach/>
           <Footer/>
         </h1>

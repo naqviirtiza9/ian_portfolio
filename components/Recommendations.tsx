@@ -7,7 +7,7 @@ const Reccommendations = () => {
     return (
         <div className="py-20" id="recommendations">
             <h1 className="heading text-purple">
-                Testimonials from Colleagues/Clients
+                Testimonials from Colleagues
             </h1>
             <div className="flex items-center flex-col">
                <div className="flex flex-col antialiased items-center relative overflow-hidden h-full ">
