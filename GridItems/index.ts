@@ -199,13 +199,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:"https://www.github.com/naqviirtiza9"
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/s-m-irtiza-aqa-naqvi-79036b235/"
   },
 ];

@@ -7,6 +7,8 @@ import MyProjects from "@/components/MyProjects";
 import { navItems } from "@/GridItems";
 import Reccommendations from "@/components/Recommendations";
 import Experience from "@/components/Experience";
+import Approach from "@/components/Approach";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main className="w-full">
@@ -21,6 +23,8 @@ export default function Home() {
           <MyProjects/>
           <Reccommendations/>
           <Experience/>
+          <Approach/>
+          <Footer/>
         </h1>
       </div>
       </main>
